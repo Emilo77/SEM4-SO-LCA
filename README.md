@@ -11,8 +11,9 @@ Proces ***Q*** jest najniższym wspólnym przodkiem procesów ***P**<sub>1</sub>
 
 **Uwaga:** Czasami w literaturze pojawiają się inne definicje najniższego wspólnego przodka.
 
-**Uwaga2:** Poprawka w definicji najniższego wspólnego przodka na czerwono.
-Nowe wywołanie systemowe
+**Uwaga2:** Poprawka w definicji najniższego wspólnego przodka `oznaczona tak`.
+
+## Nowe wywołanie systemowe
 
 Zadanie polega na dodaniu nowego wywołania systemowego `PM_GETLCAPID` z funkcją biblioteczną 
 ```c
@@ -25,13 +26,13 @@ Wywołanie systemowe `PM_GETLCAPID` przekazuje w wyniku identyfikator procesu, k
 
 Funkcja `pid_t getlcapid(pid_t pid_1, pid_t pid_2)` przekazuje w wyniku identyfikator najniższego wspólnego przodka procesów o identyfikatorach `pid_1` i `pid_2`.
 
-Jeśli któryś z procesów o identyfikatorach pid_1 lub pid_2 nie jest aktualnie działającym procesem, funkcja przekazuje w wyniku -1 i ustawia errno na EINVAL.
+Jeśli któryś z procesów o identyfikatorach `pid_1` lub `pid_2` nie jest aktualnie działającym procesem, funkcja przekazuje w wyniku `-1` i ustawia `errno` na `EINVAL`.
 
 Jeśli dla danych procesów o identyfikatorach `pid_1` i `pid_2` nie istnieje dokładnie jeden najniższy wspólny przodek, funkcja przekazuje w wyniku `-1` i ustawia errno na `ESRCH`.
 
 ## Format rozwiązania
 
-Poniżej przyjmujemy, że `ab123456` oznacza identyfikator studenta rozwiązującego zadanie. Należy przygotować łatkę (ang. *patch*) ze zmianami w katalogu `/usr`. Plik zawierający łatkę o nazwie `ab123456`.patch uzyskujemy za pomocą polecenia
+Poniżej przyjmujemy, że `ab123456` oznacza identyfikator studenta rozwiązującego zadanie. Należy przygotować łatkę (ang. *patch*) ze zmianami w katalogu `/usr`. Plik zawierający łatkę o nazwie `ab123456.patch` uzyskujemy za pomocą polecenia
 
 ```console
 diff -rupNEZbB oryginalne-źródła/usr/ moje-rozwiązanie/usr/ > ab123456.patch
