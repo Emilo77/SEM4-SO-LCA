@@ -1,1 +1,0 @@
-atoi.o: atoi.c
