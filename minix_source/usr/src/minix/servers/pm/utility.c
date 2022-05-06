@@ -2,6 +2,7 @@
  *
  * The entry points are:
  *   get_free_pid:	get a free process or group id
+ *   get_lca_pid:   get a lca of two pids
  *   find_param:	look up a boot monitor parameter
  *   find_proc:		return process pointer from pid number
  *   nice_to_priority	convert nice level to priority queue
@@ -26,6 +27,8 @@
 #include "kernel/config.h"
 #include "kernel/type.h"
 #include "kernel/proc.h"
+//do wykasowania pozniej
+#include <stdio.h>
 
 /*===========================================================================*
  *				get_free_pid				     *
@@ -47,6 +50,14 @@ pid_t get_free_pid()
 		}
   } while (t);					/* 't' = 0 means pid free */
   return(next_pid);
+}
+
+/*===========================================================================*
+ *				get_lca_pid				     *
+ *===========================================================================*/
+pid_t get_lca_pid(pid_t pid_1, pid_t pid_2) {
+	printf("git es\n");
+	return pid_1;
 }
 
 /*===========================================================================*

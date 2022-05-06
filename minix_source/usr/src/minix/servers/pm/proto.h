@@ -84,6 +84,7 @@ void trace_stop(struct mproc *rmp, int signo);
 
 /* utility.c */
 pid_t get_free_pid(void);
+pid_t get_lca_pid(pid_t pid_1, pid_t pid_2);
 char *find_param(const char *key);
 struct mproc *find_proc(pid_t lpid);
 int nice_to_priority(int nice, unsigned *new_q);
