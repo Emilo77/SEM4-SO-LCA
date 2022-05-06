@@ -47,7 +47,7 @@ Pakowaniem parametrów do jednego z formatów struktury `message`, przekazywanie
 
 ### 2.3. Pliki źródłowe systemu MINIX
 
-Pliki źródłowe znajdują się w katalogu `/usr/src/minix`. Natomiast pliki nagłówkowe w katalogach `/usr/src/include` oraz `/usr/src/minix/include/minix`. Należy zwrócić uwagę, że te same pliki nagłówkowe są też odpowiednio w katalogach `/usr/include` oraz `/usr/include/minix`. Kompilator `clang` szuka plików nagłówkowych w `/usr/include`, ponieważ tak ma ustawioną ścieżkę. Wywołanie make includes w katalogu `/usr/src` kopiuje pliki nagłówkowe z `/usr/src/…` do `/usr/include`. Kilka innych wywołań `make`, m.in. `make install`, wywołuje `make includes`. Budując fragmenty systemu, trzeba zadbać o to, żeby zmienione pliki nagłówkowe były identyczne w obydwu miejscach. Można to robić „ręcznie”, albo uruchamiać `make includes` przed rozpoczęciem właściwej kompilacji.
+Pliki źródłowe znajdują się w katalogu `/usr/src/minix`. Natomiast pliki nagłówkowe w katalogach `/usr/src/include` oraz `/usr/src/minix/include/minix`. Należy zwrócić uwagę, że te same pliki nagłówkowe są też odpowiednio w katalogach `/usr/include` oraz `/usr/include/minix`. Kompilator `clang` szuka plików nagłówkowych w `/usr/include`, ponieważ tak ma ustawioną ścieżkę. Wywołanie `make includes` w katalogu `/usr/src` kopiuje pliki nagłówkowe z `/usr/src/…` do `/usr/include`. Kilka innych wywołań `make`, m.in. `make install`, wywołuje `make includes`. Budując fragmenty systemu, trzeba zadbać o to, żeby zmienione pliki nagłówkowe były identyczne w obydwu miejscach. Można to robić „ręcznie”, albo uruchamiać `make includes` przed rozpoczęciem właściwej kompilacji.
 
 ## 3. Tworzenie funkcji obsługującej wywołanie systemowe
 

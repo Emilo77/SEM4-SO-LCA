@@ -1,0 +1,2039 @@
+asn1_dec.ln asn1_dec.go asn1_dec.pico asn1_dec.po asn1_dec.o: /usr/src/minix/lib/liblwip/core/snmp/asn1_dec.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+asn1_enc.ln asn1_enc.go asn1_enc.pico asn1_enc.po asn1_enc.o: /usr/src/minix/lib/liblwip/core/snmp/asn1_enc.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+auth.ln auth.go auth.pico auth.po auth.o: /usr/src/minix/lib/liblwip/netif/ppp/auth.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+autoip.ln autoip.go autoip.pico autoip.po autoip.o: /usr/src/minix/lib/liblwip/core/ipv4/autoip.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+chap.ln chap.go chap.pico chap.po chap.o: /usr/src/minix/lib/liblwip/netif/ppp/chap.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+chpms.ln chpms.go chpms.pico chpms.po chpms.o: /usr/src/minix/lib/liblwip/netif/ppp/chpms.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+def.ln def.go def.pico def.po def.o: /usr/src/minix/lib/liblwip/core/def.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h
+dhcp.ln dhcp.go dhcp.pico dhcp.po dhcp.o: /usr/src/minix/lib/liblwip/core/dhcp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+dhcp6.ln dhcp6.go dhcp6.pico dhcp6.po dhcp6.o: /usr/src/minix/lib/liblwip/core/ipv6/dhcp6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+dns.ln dns.go dns.pico dns.po dns.o: /usr/src/minix/lib/liblwip/core/dns.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/udp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dns.h /usr/include/string.h \
+  /usr/include/strings.h
+etharp.ln etharp.go etharp.pico etharp.po etharp.o: /usr/src/minix/lib/liblwip/netif/etharp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dhcp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/autoip.h \
+  /usr/src/minix/lib/liblwip/include/netif/etharp.h \
+  /usr/include/string.h /usr/include/strings.h
+ethernetif.ln ethernetif.go ethernetif.pico ethernetif.po ethernetif.o: /usr/src/minix/lib/liblwip/netif/ethernetif.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+ethip6.ln ethip6.go ethip6.pico ethip6.po ethip6.o: /usr/src/minix/lib/liblwip/core/ipv6/ethip6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+fsm.ln fsm.go fsm.pico fsm.po fsm.o: /usr/src/minix/lib/liblwip/netif/ppp/fsm.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+icmp.ln icmp.go icmp.pico icmp.po icmp.o: /usr/src/minix/lib/liblwip/core/ipv4/icmp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h /usr/include/string.h \
+  /usr/include/strings.h
+icmp6.ln icmp6.go icmp6.pico icmp6.po icmp6.o: /usr/src/minix/lib/liblwip/core/ipv6/icmp6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+igmp.ln igmp.go igmp.pico igmp.po igmp.o: /usr/src/minix/lib/liblwip/core/ipv4/igmp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+inet6.ln inet6.go inet6.pico inet6.po inet6.o: /usr/src/minix/lib/liblwip/core/ipv6/inet6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+inet_chksum.ln inet_chksum.go inet_chksum.pico inet_chksum.po inet_chksum.o: /usr/src/minix/lib/liblwip/core/inet_chksum.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/string.h \
+  /usr/include/strings.h
+init.ln init.go init.pico init.po init.o: /usr/src/minix/lib/liblwip/core/init.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/init.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sys.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sockets.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/raw.h \
+  /usr/src/minix/lib/liblwip/include/lwip/udp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp_msg.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp_structs.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/autoip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/igmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dns.h \
+  /usr/src/minix/lib/liblwip/include/lwip/timers.h \
+  /usr/src/minix/lib/liblwip/include/netif/etharp.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/nd6.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/mld6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/api.h
+ip4.ln ip4.go ip4.pico ip4.po ip4.o: /usr/src/minix/lib/liblwip/core/ipv4/ip4.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip_frag.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/igmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/raw.h \
+  /usr/src/minix/lib/liblwip/include/lwip/udp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dhcp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/autoip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/arch/perf.h /usr/include/string.h \
+  /usr/include/strings.h
+ip4_addr.ln ip4_addr.go ip4_addr.pico ip4_addr.po ip4_addr.o: /usr/src/minix/lib/liblwip/core/ipv4/ip4_addr.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h
+ip6.ln ip6.go ip6.pico ip6.po ip6.o: /usr/src/minix/lib/liblwip/core/ipv6/ip6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+ip6_addr.ln ip6_addr.go ip6_addr.pico ip6_addr.po ip6_addr.o: /usr/src/minix/lib/liblwip/core/ipv6/ip6_addr.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+ip6_frag.ln ip6_frag.go ip6_frag.pico ip6_frag.po ip6_frag.o: /usr/src/minix/lib/liblwip/core/ipv6/ip6_frag.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_frag.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/icmp6.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/nd6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/include/string.h /usr/include/strings.h
+ip_frag.ln ip_frag.go ip_frag.pico ip_frag.po ip_frag.o: /usr/src/minix/lib/liblwip/core/ipv4/ip_frag.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip_frag.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/include/string.h /usr/include/strings.h
+ipcp.ln ipcp.go ipcp.pico ipcp.po ipcp.o: /usr/src/minix/lib/liblwip/netif/ppp/ipcp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+lcp.ln lcp.go lcp.pico lcp.po lcp.o: /usr/src/minix/lib/liblwip/netif/ppp/lcp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+magic.ln magic.go magic.pico magic.po magic.o: /usr/src/minix/lib/liblwip/netif/ppp/magic.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+md5.ln md5.go md5.pico md5.po md5.o: /usr/src/minix/lib/liblwip/netif/ppp/md5.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+mem.ln mem.go mem.pico mem.po mem.o: /usr/src/minix/lib/liblwip/core/mem.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+memp.ln memp.go memp.pico memp.po memp.o: /usr/src/minix/lib/liblwip/core/memp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/udp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/raw.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/igmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/api.h \
+  /usr/src/minix/lib/liblwip/include/lwip/api_msg.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcpip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sys.h \
+  /usr/src/minix/lib/liblwip/include/lwip/timers.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/netif/etharp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip_frag.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp_structs.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp_msg.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dns.h \
+  /usr/src/minix/lib/liblwip/include/netif/ppp_oe.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/nd6.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_frag.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/mld6.h \
+  /usr/include/string.h /usr/include/strings.h
+mib2.ln mib2.go mib2.pico mib2.po mib2.o: /usr/src/minix/lib/liblwip/core/snmp/mib2.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+mib_structs.ln mib_structs.go mib_structs.pico mib_structs.po mib_structs.o: /usr/src/minix/lib/liblwip/core/snmp/mib_structs.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+mld6.ln mld6.go mld6.pico mld6.po mld6.o: /usr/src/minix/lib/liblwip/core/ipv6/mld6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+msg_in.ln msg_in.go msg_in.pico msg_in.po msg_in.o: /usr/src/minix/lib/liblwip/core/snmp/msg_in.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+msg_out.ln msg_out.go msg_out.pico msg_out.po msg_out.o: /usr/src/minix/lib/liblwip/core/snmp/msg_out.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+nd6.ln nd6.go nd6.pico nd6.po nd6.o: /usr/src/minix/lib/liblwip/core/ipv6/nd6.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+netif.ln netif.go netif.pico netif.po netif.o: /usr/src/minix/lib/liblwip/core/netif.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/igmp.h \
+  /usr/src/minix/lib/liblwip/include/netif/etharp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sys.h
+pap.ln pap.go pap.pico pap.po pap.o: /usr/src/minix/lib/liblwip/netif/ppp/pap.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+pbuf.ln pbuf.go pbuf.pico pbuf.po pbuf.o: /usr/src/minix/lib/liblwip/core/pbuf.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sys.h \
+  /usr/src/minix/lib/liblwip/include/arch/perf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/include/string.h /usr/include/strings.h
+ppp.ln ppp.go ppp.pico ppp.po ppp.o: /usr/src/minix/lib/liblwip/netif/ppp/ppp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+ppp_oe.ln ppp_oe.go ppp_oe.pico ppp_oe.po ppp_oe.o: /usr/src/minix/lib/liblwip/netif/ppp/ppp_oe.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+randm.ln randm.go randm.pico randm.po randm.o: /usr/src/minix/lib/liblwip/netif/ppp/randm.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+raw.ln raw.go raw.pico raw.po raw.o: /usr/src/minix/lib/liblwip/core/raw.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/raw.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/arch/perf.h /usr/include/string.h \
+  /usr/include/strings.h
+slipif.ln slipif.go slipif.pico slipif.po slipif.o: /usr/src/minix/lib/liblwip/netif/slipif.c \
+  /usr/src/minix/lib/liblwip/include/netif/slipif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h
+stats.ln stats.go stats.pico stats.po stats.o: /usr/src/minix/lib/liblwip/core/stats.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h
+sys.ln sys.go sys.pico sys.po sys.o: /usr/src/minix/lib/liblwip/core/sys.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sys.h
+sys_arch.ln sys_arch.go sys_arch.pico sys_arch.po sys_arch.o: sys_arch.c /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/include/sys/bswap.h \
+  /usr/include/sys/fd_set.h /usr/include/minix/sysutil.h \
+  /usr/include/minix/ipc.h /usr/include/minix/ipcconst.h \
+  /usr/include/machine/ipcconst.h /usr/include/minix/type.h \
+  /usr/include/machine/multiboot.h /usr/include/minix/sys_config.h \
+  /usr/include/sys/sigtypes.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/null.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/errno.h \
+  /usr/include/sys/errno.h
+tcp.ln tcp.go tcp.pico tcp.po tcp.o: /usr/src/minix/lib/liblwip/core/tcp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/nd6.h \
+  /usr/include/string.h /usr/include/strings.h
+tcp_in.ln tcp_in.go tcp_in.pico tcp_in.po tcp_in.o: /usr/src/minix/lib/liblwip/core/tcp_in.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/arch/perf.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/nd6.h
+tcp_out.ln tcp_out.go tcp_out.pico tcp_out.po tcp_out.o: /usr/src/minix/lib/liblwip/core/tcp_out.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h /usr/include/string.h \
+  /usr/include/strings.h
+timers.ln timers.go timers.pico timers.po timers.o: /usr/src/minix/lib/liblwip/core/timers.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/timers.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp_impl.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/tcpip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip_frag.h \
+  /usr/src/minix/lib/liblwip/include/netif/etharp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dhcp.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/autoip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/igmp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dns.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/nd6.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_frag.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/mld6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/sys.h
+udp.ln udp.go udp.pico udp.po udp.o: /usr/src/minix/lib/liblwip/core/udp.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h \
+  /usr/src/minix/lib/liblwip/include/lwip/udp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/pbuf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/err.h \
+  /usr/src/minix/lib/liblwip/include/lwip/netif.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/def.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4_addr.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6_addr.h \
+  /usr/src/minix/lib/liblwip/include/lwip/ip.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/ip4.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/ip6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp.h \
+  /usr/src/minix/lib/liblwip/include/lwip/memp_std.h \
+  /usr/src/minix/lib/liblwip/include/lwip/inet_chksum.h \
+  /usr/src/minix/lib/liblwip/include/ipv4/lwip/icmp.h \
+  /usr/src/minix/lib/liblwip/include/ipv6/lwip/icmp6.h \
+  /usr/src/minix/lib/liblwip/include/lwip/stats.h \
+  /usr/src/minix/lib/liblwip/include/lwip/mem.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stddef.h /usr/include/stdlib.h \
+  /usr/src/minix/lib/liblwip/include/lwip/snmp.h \
+  /usr/src/minix/lib/liblwip/include/arch/perf.h \
+  /usr/src/minix/lib/liblwip/include/lwip/dhcp.h /usr/include/string.h \
+  /usr/include/strings.h
+vj.ln vj.go vj.pico vj.po vj.o: /usr/src/minix/lib/liblwip/netif/ppp/vj.c \
+  /usr/src/minix/lib/liblwip/include/lwip/opt.h \
+  /usr/src/minix/lib/liblwip/include/lwipopts.h \
+  /usr/src/minix/lib/liblwip/include/lwip/debug.h \
+  /usr/src/minix/lib/liblwip/include/lwip/arch.h \
+  /usr/src/minix/lib/liblwip/include/arch/cc.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/time.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/minix/sysutil.h /usr/include/minix/ipc.h \
+  /usr/include/minix/ipcconst.h /usr/include/machine/ipcconst.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/config.h /usr/include/machine/interrupt.h \
+  /usr/include/minix/const.h /usr/include/machine/archconst.h \
+  /usr/include/sys/signal.h /usr/include/sys/siginfo.h \
+  /usr/include/machine/signal.h /usr/include/machine/fpu.h \
+  /usr/include/machine/trap.h /usr/include/x86/trap.h \
+  /usr/include/sys/ucontext.h /usr/include/machine/mcontext.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/assert.h

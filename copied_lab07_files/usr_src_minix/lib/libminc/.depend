@@ -1,0 +1,91 @@
+_cpufeature.ln _cpufeature.go _cpufeature.pico _cpufeature.po _cpufeature.o: /usr/src/minix/lib/libc/arch/i386/_cpufeature.c \
+  /usr/include/sys/types.h /usr/include/sys/featuretest.h \
+  /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/stdint.h /usr/include/stdint.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/minix/minlib.h /usr/include/sys/mount.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h /usr/include/sys/param.h \
+  /usr/include/sys/inttypes.h /usr/include/machine/int_fmtio.h \
+  /usr/include/sys/syslimits.h /usr/include/sys/signal.h \
+  /usr/include/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/include/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/include/sys/uio.h \
+  /usr/include/sys/ucred.h \
+  /usr/pkg/bin/../lib/clang/3.4/include/limits.h /usr/include/limits.h \
+  /usr/include/minix/type.h /usr/include/machine/multiboot.h \
+  /usr/include/minix/sys_config.h /usr/include/minix/config.h \
+  /usr/include/machine/interrupt.h /usr/include/sys/fstypes.h \
+  /usr/include/sys/queue.h /usr/include/sys/rwlock.h \
+  /usr/include/machine/rwlock.h /usr/include/x86/rwlock.h \
+  /usr/include/sys/statvfs.h /usr/include/sys/specificdata.h \
+  /usr/include/sys/mutex.h /usr/include/machine/mutex.h \
+  /usr/include/x86/mutex.h /usr/include/sys/condvar.h \
+  /usr/include/minix/cpufeature.h /usr/include/machine/vm.h \
+  /usr/include/string.h /usr/include/strings.h
+_cpuid.ln _cpuid.go _cpuid.pico _cpuid.po _cpuid.o: /usr/src/minix/lib/libc/arch/i386/_cpuid.S \
+  /usr/include/machine/asm.h
+_snprintf.ln _snprintf.go _snprintf.pico _snprintf.po _snprintf.o: _snprintf.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/src/sys/lib/libsa/snprintf.c /usr/include/sys/types.h \
+  /usr/include/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/bswap.h /usr/include/machine/byte_swap.h \
+  /usr/include/sys/bswap.h /usr/include/sys/fd_set.h \
+  /usr/include/sys/stdarg.h /usr/src/sys/lib/libsa/stand.h \
+  /usr/include/sys/stat.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/sys/sigtypes.h \
+  /usr/include/time.h /usr/include/sys/null.h \
+  /usr/src/sys/lib/libsa/saioctl.h /usr/src/sys/lib/libsa/saerrno.h \
+  /usr/include/sys/errno.h
+atoi.ln atoi.go atoi.pico atoi.po atoi.o: atoi.c
+errlist.ln errlist.go errlist.pico errlist.po errlist.o: errlist.c /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /usr/include/sys/featuretest.h
+fputs.ln fputs.go fputs.pico fputs.po fputs.o: fputs.c /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/src/lib/libc/include/namespace.h \
+  /usr/include/assert.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/sys/ansi.h \
+  /usr/include/machine/ansi.h /usr/include/machine/int_types.h
+get_bp.ln get_bp.go get_bp.pico get_bp.po get_bp.o: /usr/src/minix/lib/libc/arch/i386/get_bp.S \
+  /usr/include/machine/asm.h
+getprocessor.ln getprocessor.go getprocessor.pico getprocessor.po getprocessor.o: /usr/src/minix/lib/libc/arch/i386/getprocessor.S \
+  /usr/include/machine/asm.h
+read_tsc.ln read_tsc.go read_tsc.pico read_tsc.po read_tsc.o: /usr/src/minix/lib/libc/arch/i386/read_tsc.S \
+  /usr/include/machine/asm.h
+strtol.ln strtol.go strtol.pico strtol.po strtol.o: strtol.c /usr/src/sys/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/src/sys/sys/cdefs_elf.h /usr/src/sys/sys/param.h \
+  /usr/src/sys/sys/null.h /usr/src/sys/sys/inttypes.h \
+  /usr/src/sys/sys/stdint.h /usr/include/machine/int_types.h \
+  /usr/include/machine/int_mwgwtypes.h /usr/include/machine/int_limits.h \
+  /usr/include/machine/int_const.h /usr/include/machine/wchar_limits.h \
+  /usr/include/machine/int_fmtio.h /usr/src/sys/sys/types.h \
+  /usr/src/sys/sys/featuretest.h /usr/include/machine/types.h \
+  /usr/include/machine/ansi.h /usr/src/sys/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/src/sys/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/bswap.h \
+  /usr/include/machine/byte_swap.h /usr/src/sys/sys/bswap.h \
+  /usr/src/sys/sys/fd_set.h /usr/src/sys/sys/syslimits.h \
+  /usr/src/sys/sys/signal.h /usr/src/sys/sys/sigtypes.h \
+  /usr/src/sys/sys/siginfo.h /usr/include/machine/signal.h \
+  /usr/include/machine/fpu.h /usr/include/machine/trap.h \
+  /usr/include/x86/trap.h /usr/src/sys/sys/ucontext.h \
+  /usr/include/machine/mcontext.h /usr/include/machine/param.h \
+  /usr/include/machine/limits.h /usr/src/sys/lib/libkern/libkern.h \
+  /usr/src/sys/lib/libsa/stand.h /usr/src/sys/sys/stat.h \
+  /usr/src/sys/sys/time.h /usr/src/sys/sys/stdarg.h \
+  /usr/src/sys/lib/libsa/saioctl.h /usr/src/sys/lib/libsa/saerrno.h \
+  /usr/src/sys/sys/errno.h /usr/src/common/lib/libc/stdlib/_strtol.h
