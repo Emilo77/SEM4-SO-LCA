@@ -53,34 +53,6 @@ pid_t get_free_pid()
 }
 
 /*===========================================================================*
- *				get_lca_pid				     *
- *===========================================================================*/
-pid_t get_lca_pid(pid_t pid_1, pid_t pid_2)
-{
-	//gets the lowest common ancestor of two processes
-	//if they are not related, returns -1 and sets errno to ESRCH
-	//if one of the processes is not found, returns -1 and sets errno to EINVAL
-	//if both processes are found, returns the lca pid
-
-	register struct mproc *rmp;			/* check process table */
-	pid_t lca_pid;				/* lowest common ancestor */
-
-	if(!(mproc[next_child].mp_flags & IN_USE)
-		|| !(mproc[next_child].mp_flags& IN_USE))
-	{
-		errno = EINVAL;
-		return -1;
-	}
-
-	if(pid_1 == pid_2)
-	{
-		//todo ???
-		return pid_1;
-	}
-	return pid_1;
-}
-
-/*===========================================================================*
  *				find_param				     *
  *===========================================================================*/
 char *find_param(name)

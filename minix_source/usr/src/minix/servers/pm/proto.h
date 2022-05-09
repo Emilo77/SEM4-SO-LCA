@@ -52,6 +52,9 @@ void sched_init(void);
 int sched_start_user(endpoint_t ep, struct mproc *rmp);
 int sched_nice(struct mproc *rmp, int nice);
 
+/* proclca.c */
+int do_getlcapid(void);
+
 /* profile.c */
 int do_sprofile(void);
 int do_cprofile(void);
@@ -84,7 +87,6 @@ void trace_stop(struct mproc *rmp, int signo);
 
 /* utility.c */
 pid_t get_free_pid(void);
-pid_t get_lca_pid(pid_t pid_1, pid_t pid_2);
 char *find_param(const char *key);
 struct mproc *find_proc(pid_t lpid);
 int nice_to_priority(int nice, unsigned *new_q);
