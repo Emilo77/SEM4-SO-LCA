@@ -119,7 +119,7 @@ gid_t	 getgid(void);
 int	 getgroups(int, gid_t []);
 __aconst char *getlogin(void);
 int	 getlogin_r(char *, size_t);
-//pid_t    getlcapid(pid_t, pid_t);
+int    getlcapid(pid_t, pid_t);
 pid_t	 getpgrp(void);
 pid_t	 getpid(void);
 pid_t	 getppid(void);

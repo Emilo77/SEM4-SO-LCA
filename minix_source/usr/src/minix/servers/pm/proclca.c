@@ -19,15 +19,9 @@ int do_getlcapid(void)
 	int depth1 = 0;
 	int depth2 = 0;
 
-	if (pid1 < 0 || pid2 < 0) {
-		errno = EINVAL;
-		return -1;
-	}
-
-
 	register struct mproc *rmp;			/* check process table */
 
-	if(!(mproc[pid1].mp_flags & IN_USE)
+	if(pid1 < 0 || pid2 < 0 || !(mproc[pid1].mp_flags & IN_USE)
 	   || !(mproc[pid2].mp_flags& IN_USE))
 	{
 		errno = EINVAL;
@@ -65,12 +59,17 @@ int do_getlcapid(void)
 		}
 	}
 
-	while (temp_pid1 != temp_pid2)
+	while (depth1 != 0 && temp_pid1 != temp_pid2)
 	{
 		temp_pid1 = mproc[temp_pid1].mp_parent;
 		temp_pid2 = mproc[temp_pid2].mp_parent;
+		depth1--;
+	}
+	if (temp_pid1 != temp_pid2)
+	{
+		errno = ESRCH;
+		return -1;
 	}
 
-	//todo zrobić przypadek, ze nie są powiązane
 	return temp_pid1;
 }
