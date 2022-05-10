@@ -2,6 +2,8 @@
  * */
 
 #include "pm.h"
+#include "mproc.h"  // for process table mproc
+#include "stdio.h" // for printf
 //todo może jakiś include
 /*===========================================================================*
  *				get_lca_pid				     *
