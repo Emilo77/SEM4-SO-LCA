@@ -1,0 +1,9 @@
+*
+!tests
+!tests/*.c
+!tests/*.h
+!tests/*.cpp
+!*.sh
+!README.md
+!LICENSE
+!.gitignore
