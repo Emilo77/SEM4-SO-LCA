@@ -27,8 +27,6 @@
 #include "kernel/config.h"
 #include "kernel/type.h"
 #include "kernel/proc.h"
-//do wykasowania pozniej
-#include <stdio.h>
 
 /*===========================================================================*
  *				get_free_pid				     *
