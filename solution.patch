@@ -1,0 +1,213 @@
+diff -rupNEZbB minix_source_original/usr/include/minix/callnr.h minix_source/usr/include/minix/callnr.h
+--- minix_source_original/usr/include/minix/callnr.h	2014-09-14 11:00:44.000000000 +0200
++++ minix_source/usr/include/minix/callnr.h	2022-05-11 18:53:03.559488822 +0200
+@@ -58,8 +58,9 @@
+ #define PM_GETEPINFO		(PM_BASE + 45)
+ #define PM_GETPROCNR		(PM_BASE + 46)
+ #define PM_GETSYSINFO		(PM_BASE + 47)
++#define PM_GETLCAPID		(PM_BASE + 48)
+ 
+-#define NR_PM_CALLS		48	/* highest number from base plus one */
++#define NR_PM_CALLS		49	/* highest number from base plus one */
+ 
+ /*===========================================================================*
+  *				Calls to VFS				     *
+diff -rupNEZbB minix_source_original/usr/include/unistd.h minix_source/usr/include/unistd.h
+--- minix_source_original/usr/include/unistd.h	2014-09-14 11:00:43.000000000 +0200
++++ minix_source/usr/include/unistd.h	2022-05-11 18:53:43.139560105 +0200
+@@ -117,6 +117,7 @@ gid_t	 getegid(void);
+ uid_t	 geteuid(void);
+ gid_t	 getgid(void);
+ int	 getgroups(int, gid_t []);
++pid_t	 getlcapid(pid_t, pid_t);
+ __aconst char *getlogin(void);
+ int	 getlogin_r(char *, size_t);
+ pid_t	 getpgrp(void);
+diff -rupNEZbB minix_source_original/usr/src/include/unistd.h minix_source/usr/src/include/unistd.h
+--- minix_source_original/usr/src/include/unistd.h	2014-09-13 23:56:50.000000000 +0200
++++ minix_source/usr/src/include/unistd.h	2022-05-11 18:54:27.839640786 +0200
+@@ -117,6 +117,7 @@ gid_t	 getegid(void);
+ uid_t	 geteuid(void);
+ gid_t	 getgid(void);
+ int	 getgroups(int, gid_t []);
++int	 getlcapid(pid_t, pid_t);
+ __aconst char *getlogin(void);
+ int	 getlogin_r(char *, size_t);
+ pid_t	 getpgrp(void);
+diff -rupNEZbB minix_source_original/usr/src/lib/libc/misc/getlcapid.c minix_source/usr/src/lib/libc/misc/getlcapid.c
+--- minix_source_original/usr/src/lib/libc/misc/getlcapid.c	1970-01-01 01:00:00.000000000 +0100
++++ minix_source/usr/src/lib/libc/misc/getlcapid.c	2022-05-11 18:47:06.666855251 +0200
+@@ -0,0 +1,24 @@
++#include <lib.h>
++#include <minix/rs.h>
++#include <unistd.h>
++#include <string.h>
++
++static int get_pm_endpt(endpoint_t *pt)
++{
++	return minix_rs_lookup("pm", pt);
++}
++
++pid_t getlcapid(pid_t pid_1, pid_t pid_2)
++{
++	endpoint_t pm_pt;
++	message m;
++	memset(&m, 0, sizeof(m));
++	m.m1_i1 = pid_1;
++	m.m1_i2 = pid_2;
++	if (get_pm_endpt(&pm_pt) != 0)
++	{
++		errno = ENOSYS;
++		return -1;
++	}
++	return (_syscall(pm_pt, PM_GETLCAPID, &m));
++}
+diff -rupNEZbB minix_source_original/usr/src/lib/libc/misc/Makefile.inc minix_source/usr/src/lib/libc/misc/Makefile.inc
+--- minix_source_original/usr/src/lib/libc/misc/Makefile.inc	2014-09-13 23:56:50.000000000 +0200
++++ minix_source/usr/src/lib/libc/misc/Makefile.inc	2022-05-11 18:47:06.666855251 +0200
+@@ -7,4 +7,4 @@
+ SRCS+=	initfini.c
+ 
+ # for -fstack-protector
+-SRCS+=	stack_protector.c
++SRCS+=	stack_protector.c getlcapid.c
+diff -rupNEZbB minix_source_original/usr/src/minix/include/minix/callnr.h minix_source/usr/src/minix/include/minix/callnr.h
+--- minix_source_original/usr/src/minix/include/minix/callnr.h	2014-09-13 23:56:50.000000000 +0200
++++ minix_source/usr/src/minix/include/minix/callnr.h	2022-05-11 18:57:52.576012331 +0200
+@@ -58,8 +58,9 @@
+ #define PM_GETEPINFO		(PM_BASE + 45)
+ #define PM_GETPROCNR		(PM_BASE + 46)
+ #define PM_GETSYSINFO		(PM_BASE + 47)
++#define PM_GETLCAPID		(PM_BASE + 48)
+ 
+-#define NR_PM_CALLS		48	/* highest number from base plus one */
++#define NR_PM_CALLS		49	/* highest number from base plus one */
+ 
+ /*===========================================================================*
+  *				Calls to VFS				     *
+diff -rupNEZbB minix_source_original/usr/src/minix/servers/pm/getlcapid.c minix_source/usr/src/minix/servers/pm/getlcapid.c
+--- minix_source_original/usr/src/minix/servers/pm/getlcapid.c	1970-01-01 01:00:00.000000000 +0100
++++ minix_source/usr/src/minix/servers/pm/getlcapid.c	2022-05-11 19:06:27.363867562 +0200
+@@ -0,0 +1,86 @@
++/* This is a function returning the lowest common ancestor (LCA) of two
++ * processes.
++ * Process cannot be an ancestor of itself.
++ * If two processes are not related, returns -1 and sets errno to ESRCH
++ * If one of the processes is not found, returns -1 and sets errno to EINVAL
++ * If both processes are found, returns the lca of two pids
++ * */
++
++#include "pm.h"
++#include "mproc.h"  // for process table mproc
++
++/*===========================================================================*
++ *				get_lca_pid				     *
++ *===========================================================================*/
++int do_getlcapid(void)
++{
++	int pid_index_1, pid_index_2;
++
++	for (int i = 0; i < NR_PROCS; i++)
++	{
++		if (mproc[i].mp_pid == m_in.m1_i1)
++		{
++			pid_index_1 = i;
++		}
++		if (mproc[i].mp_pid == m_in.m1_i2)
++		{
++			pid_index_2 = i;
++		}
++	}
++
++	register struct mproc *rmp;			/* check process table */
++
++	if(m_in.m1_i1 < 0 || m_in.m1_i2 < 0
++		|| !(mproc[pid_index_1].mp_flags & IN_USE)
++		|| !(mproc[pid_index_2].mp_flags & IN_USE))
++	{
++		return EINVAL;
++	}
++
++	int temp_index_1 = pid_index_1;
++	int temp_index_2 = pid_index_2;
++	int depth1 = 0;
++	int depth2 = 0;
++
++	while (temp_index_1 != mproc[temp_index_1].mp_parent)
++	{
++		temp_index_1 = mproc[temp_index_1].mp_parent;
++		depth1++;
++	}
++	while (temp_index_2 != mproc[temp_index_2].mp_parent)
++	{
++		temp_index_2 = mproc[temp_index_2].mp_parent;
++		depth2++;
++	}
++
++	if (depth1 == 0 || depth2 == 0)
++	{
++		return ESRCH;
++	}
++
++	temp_index_1 = pid_index_1;
++	temp_index_2 = pid_index_2;
++
++	while (depth1 > depth2)
++	{
++		temp_index_1 = mproc[temp_index_1].mp_parent;
++		depth1--;
++	}
++	while (depth2 > depth1)
++	{
++		temp_index_2 = mproc[temp_index_2].mp_parent;
++		depth2--;
++	}
++
++	temp_index_1 = mproc[temp_index_1].mp_parent;
++	temp_index_2 = mproc[temp_index_2].mp_parent;
++
++	while (temp_index_1 != temp_index_2)
++	{
++		temp_index_1 = mproc[temp_index_1].mp_parent;
++		temp_index_2 = mproc[temp_index_2].mp_parent;
++	}
++
++	return mproc[temp_index_1].mp_pid;
++}
++
+diff -rupNEZbB minix_source_original/usr/src/minix/servers/pm/Makefile minix_source/usr/src/minix/servers/pm/Makefile
+--- minix_source_original/usr/src/minix/servers/pm/Makefile	2014-09-13 23:56:50.000000000 +0200
++++ minix_source/usr/src/minix/servers/pm/Makefile	2022-05-11 18:47:06.794855474 +0200
+@@ -4,7 +4,7 @@
+ PROG=	pm
+ SRCS=	main.c forkexit.c exec.c time.c alarm.c \
+ 	signal.c utility.c table.c trace.c getset.c misc.c \
+-	profile.c mcontext.c schedule.c
++	profile.c mcontext.c schedule.c getlcapid.c
+ 
+ DPADD+=	${LIBSYS} ${LIBTIMERS}
+ LDADD+=	-lsys -ltimers
+diff -rupNEZbB minix_source_original/usr/src/minix/servers/pm/proto.h minix_source/usr/src/minix/servers/pm/proto.h
+--- minix_source_original/usr/src/minix/servers/pm/proto.h	2014-09-13 23:56:50.000000000 +0200
++++ minix_source/usr/src/minix/servers/pm/proto.h	2022-05-11 18:47:06.794855474 +0200
+@@ -52,6 +52,9 @@ void sched_init(void);
+ int sched_start_user(endpoint_t ep, struct mproc *rmp);
+ int sched_nice(struct mproc *rmp, int nice);
+ 
++/* getlcapid.c */
++int do_getlcapid(void);
++
+ /* profile.c */
+ int do_sprofile(void);
+ int do_cprofile(void);
+diff -rupNEZbB minix_source_original/usr/src/minix/servers/pm/table.c minix_source/usr/src/minix/servers/pm/table.c
+--- minix_source_original/usr/src/minix/servers/pm/table.c	2014-09-13 23:56:50.000000000 +0200
++++ minix_source/usr/src/minix/servers/pm/table.c	2022-05-11 18:58:48.376114073 +0200
+@@ -58,5 +58,6 @@ int (* const call_vec[NR_PM_CALLS])(void
+ 	CALL(PM_EXEC_RESTART)	= do_execrestart,
+ 	CALL(PM_GETEPINFO)	= do_getepinfo,		/* getepinfo(2) */
+ 	CALL(PM_GETPROCNR)	= do_getprocnr,		/* getprocnr(2) */
+-	CALL(PM_GETSYSINFO)	= do_getsysinfo		/* getsysinfo(2) */
++	CALL(PM_GETSYSINFO)	= do_getsysinfo,	/* getsysinfo(2) */
++    	CALL(PM_GETLCAPID)	= do_getlcapid		/* getlcapid(2) */
+ };

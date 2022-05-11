@@ -2,7 +2,6 @@
  *
  * The entry points are:
  *   get_free_pid:	get a free process or group id
- *   get_lca_pid:   get a lca of two pids
  *   find_param:	look up a boot monitor parameter
  *   find_proc:		return process pointer from pid number
  *   nice_to_priority	convert nice level to priority queue
