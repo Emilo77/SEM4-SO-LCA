@@ -1,8 +1,9 @@
 #include <lib.h>
 #include <minix/rs.h>
+#include <unistd.h>
 #include <string.h>
 
-int get_pm_endpt(endpoint_t *pt)
+static int get_pm_endpt(endpoint_t *pt)
 {
 	return minix_rs_lookup("pm", pt);
 }
